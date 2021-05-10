@@ -4,7 +4,7 @@
     "description": "Checks if an object is empty or not",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "ava"
     },
     "keywords": [
         "nodejs",
@@ -13,5 +13,8 @@
         "typescript"
     ],
     "author": "Aditya Raj Kumawat",
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "ava": "^3.15.0"
+    }
 }

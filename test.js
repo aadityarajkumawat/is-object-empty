@@ -1,5 +1,8 @@
+const test = require("ava");
 const { isObjectEmpty } = require("./index");
 
-const a = { name: "Pegasus" };
-
-console.log(isObjectEmpty(a));
+test("isObjectEmpty()", (t) => {
+    t.true(isObjectEmpty({}));
+    t.false(isObjectEmpty({ a: 67 }));
+    t.false(isObjectEmpty({ name: "Pegasus" }));
+});
