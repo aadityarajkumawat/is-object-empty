@@ -3,16 +3,25 @@
     "version": "1.0.0",
     "description": "Checks if an object is empty or not",
     "main": "index.js",
+    "repository": "aadityarajkumawat/is-object-empty",
     "scripts": {
         "test": "ava"
     },
+    "files": [
+        "index.js",
+        "index.d.ts"
+    ],
     "keywords": [
         "nodejs",
         "javascript",
         "node",
         "typescript"
     ],
-    "author": "Aditya Raj Kumawat",
+    "author": {
+        "name": "Aditya Raj Kumawat",
+        "email": "arkumawat78@gmail.com",
+        "url": "https://mysite.edydee.xyz/"
+    },
     "license": "MIT",
     "devDependencies": {
         "ava": "^3.15.0"
