@@ -1,0 +1,17 @@
+{
+    "name": "object-is-empty",
+    "version": "1.0.0",
+    "description": "Checks if an object is empty or not",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "nodejs",
+        "javascript",
+        "node",
+        "typescript"
+    ],
+    "author": "Aditya Raj Kumawat",
+    "license": "MIT"
+}
